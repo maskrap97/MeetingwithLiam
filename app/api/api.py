@@ -1,6 +1,6 @@
 from flask import Blueprint, json, jsonify, request
 from ..model import model
-api = Blueprint('admin', __name__, url_prefix='/admin')
+api = Blueprint('admin', __name__, url_prefix='/api')
 
 @api.route('/', methods=["POST", "GET"])
 def api_main():
