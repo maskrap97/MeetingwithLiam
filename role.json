@@ -1,0 +1,21 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "lambda",
+        "RoleId": "AROA3VLPJLQL3Y526ECHV",
+        "Arn": "arn:aws:iam::801781668887:role/lambda",
+        "CreateDate": "2021-08-08T04:57:05+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "FunctionName": "my-function",
+    "FunctionArn": "arn:aws:lambda:us-west-2:801781668887:function:my-function",
+    "Runtime": "python3.8",
+    "Role": "arn:aws:iam::801781668887:role/lambda",
+    "Handler": "lamba_function.lambda_handler",
+    "CodeSize": 303,
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2021-08-08T05:01:13.493+0000",
+    "CodeSha256": "UqwexmuyQfidQwdyqKoVOfgIAw/VFwW+96ax73DSK5Q=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "51a03035-ad00-4a38-920a-82fbb1c76ea8",
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip"
+}
